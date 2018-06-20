@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>HTML ImageMap resizing example</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="iFrame message passing test">
+	<meta name="viewport" content="width=device-width"></head>
+	
+<body>
+
+	<h2>Automagically resizing imageMap</h2>
+	<p>Resize window and the HTML ImageMap will scale with the image.</p>
+
+	<p>
+ <img name="usaMap" src="imagez/tvall.png" usemap="#m_usaMap" border="0" width="100%">
+	</p>
+
+	<map name="m_usaMap">
+
+  <area shape="rect" coords="335,363,561,559" href="rfhr1.htm" >
+  <area shape="rect" coords="565,365,727,567" href="rfhr2.htm">
+  <area shape="rect" coords="130,126,297,354" href="rfhr3.htm">
+  <area shape="rect" coords="302,199,404,352" href="rfhr4.htm">
+  <area shape="rect" coords="97,429,274,492" href="rfhmh.htm">
+  
+	</map>
+
+	<p class="credits">
+		JavaScript &copy; David J. Bradshaw - <a href="https://github.com/davidjbradshaw/imagemap-resizer">https://github.com/davidjbradshaw/imagemap-resizer</a>.
+		<br>
+		HTML imageMap example from <a href="http://html.cita.illinois.edu/text/map/map-example.php">http://html.cita.illinois.edu/text/map/map-example.php</a>  (Permission requested).
+	</p>
+	<!--[if lte IE 8]>
+		<script type="text/javascript" src="../js/ie8.polyfil.min.js"></script>
+	<![endif]-->
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type="text/javascript" src="njs/imageMapResizer.min.js"></script>
+<script type="text/javascript">
+
+		$('map').imageMapResize();
+
+	</script>
+
+</body>
+</html>
