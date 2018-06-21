@@ -46,7 +46,7 @@ DO THEY WANT MARKETING?: $marketing    \n\r
 HAVE THEY AGREED TO THE Ts and Cs: $tandc    \n\r
 ANY QUESTIONS OR COMMENTS: $qs    \n\r
 ";
-$recipient = "thevenuecowley@gmail.com";
+$recipient = "noellekaly@gmail.com";
 $subject = "Venue booking form";
 $mailheader = "From: $email\\r\\n";
 $mailheader .= "Reply-To: $email\\r\\n";
