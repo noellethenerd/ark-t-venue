@@ -1,3 +1,5 @@
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSddIT7GticbfkJq804Apd_wovzFcmmi-3e_rS23iOT8GjkW8g/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 <?php
 /*Here we are going to declare the variables*/
 $fname = $_POST['fname'];
